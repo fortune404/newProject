@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89797ecc-b46c-49df-a4e1-3365724e8a0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tutoring_Stack/HospitalPatients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tutoring_jdbc/Movie3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tutoring_selectionSort/UseSelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tutoring_bubbleSort/UseBubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My_first_project/tutoring_arraylist/UseArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My_first_project/tutoring_arraylist/UseArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My_first_project/tutoring_jdbc/MovieData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My_first_project/tutoring_jdbc/MovieData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tutoring_arraylist/UseArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutoring_arraylist/UseArrayList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MovieData">
+  <component name="RunManager" selected="Application.UseBubbleSort">
     <configuration name="HospitalPatients" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tutoring_Stack.HospitalPatients" />
       <module name="My_first_project" />
@@ -104,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutoring_map.SimpleHashMap" />
+    <configuration name="UseArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutoring_arraylist.UseArrayList" />
       <module name="My_first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tutoring_map.*" />
+          <option name="PATTERN" value="tutoring_arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutoring_map.UseMap" />
+    <configuration name="UseBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutoring_bubbleSort.UseBubbleSort" />
       <module name="My_first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tutoring_map.*" />
+          <option name="PATTERN" value="tutoring_bubbleSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseBubbleSort" />
+        <item itemvalue="Application.UseArrayList" />
         <item itemvalue="Application.MovieData" />
         <item itemvalue="Application.Movie3" />
         <item itemvalue="Application.HospitalPatients" />
-        <item itemvalue="Application.SimpleHashMap" />
-        <item itemvalue="Application.UseMap" />
       </list>
     </recent_temporary>
   </component>

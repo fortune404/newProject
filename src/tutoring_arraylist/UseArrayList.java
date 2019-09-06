@@ -1,6 +1,7 @@
 package tutoring_arraylist;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 
 public class UseArrayList
@@ -20,7 +21,7 @@ public class UseArrayList
         cars.add("Infiniti");
         cars.set(4,"Lamborghini");      //changes the value of the chosen index
 
-        Collections.sort(cars);         //it arranges data alphabetically & numerically
+        //Collections.sort(cars);         //it arranges data alphabetically & numerically
 
         for (int i = 0; i <cars.size();i++)
         {
@@ -85,6 +86,7 @@ public class UseArrayList
         System.out.println("------");
 
         Collections.sort(locations);        //alphabetically locations
+
         for (String s: locations)                       //for each loop
         {
             System.out.println(s);
