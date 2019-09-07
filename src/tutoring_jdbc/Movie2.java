@@ -21,7 +21,7 @@ public class Movie2
             statement = connection.createStatement();
 
             String query = "INSERT INTO movie(id, title, releaseYear, genre, mpaaRating) " +
-                    "VALUES(10, 'Jumanji: Welcome to the Jungle', 2017, 'Action/Comedy', 'PG-13');";
+                    "VALUES(21, 'Venom', 2018, 'Thriller/Sci-fi', 'PG-13');";
             statement.execute(query);
 
         }catch (Exception e)

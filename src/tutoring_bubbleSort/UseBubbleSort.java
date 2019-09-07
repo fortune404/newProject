@@ -27,13 +27,24 @@ public class UseBubbleSort {
 //            }
 //        }
 
-        UseBubbleSort sort = new UseBubbleSort();
+       // UseBubbleSort sort = new UseBubbleSort();
 
-       // UseBubbleSort.bubbleSort();
+
+        UseBubbleSort.bubbleSort();
     }
 
 
-    public static void bubbleSort(int[] array) {
+    public static void bubbleSort() {
+
+        int[] array = new int[7];
+
+        array[0] = 5;
+        array[1] = 3;
+        array[2] = 10;
+        array[3] = 11;
+        array[4] = 2;
+        array[5] = 8;
+        array[6] = 6;
         boolean sorted = false;
         int temp;
         while (!sorted) {
@@ -44,6 +55,8 @@ public class UseBubbleSort {
                     array[i] = array[i + 1];
                     array[i + 1] = temp;
                     sorted = false;
+
+                    System.out.println(array[i + 1]);
                 }
             }
         }
