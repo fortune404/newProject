@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89797ecc-b46c-49df-a4e1-3365724e8a0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tutoring_anagram/UseAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tutoring_anagram/DemoAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tutoring_reverseString/UseReverseString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My_first_project/tutoring_nestedloop/UseNestedLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My_first_project/tutoring_nestedloop/UseNestedLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tutoring_nestedloop/UseNestedLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutoring_nestedloop/UseNestedLoop.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,13 +65,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UseAnagram">
-    <configuration name="RetrieveData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutoring_jdbc_retrieve.RetrieveData" />
+  <component name="RunManager" selected="Application.UseReverseString">
+    <configuration name="DemoAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutoring_anagram.DemoAnagram" />
       <module name="My_first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tutoring_jdbc_retrieve.*" />
+          <option name="PATTERN" value="tutoring_anagram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseNestedLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutoring.UseNestedLoop" />
+    <configuration name="UseReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutoring_reverseString.UseReverseString" />
       <module name="My_first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tutoring.*" />
+          <option name="PATTERN" value="tutoring_reverseString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UseAnagram" />
+        <item itemvalue="Application.UseReverseString" />
+        <item itemvalue="Application.DemoAnagram" />
         <item itemvalue="Application.UseNestedLoop (1)" />
         <item itemvalue="Application.RetrieveData2" />
-        <item itemvalue="Application.RetrieveData" />
-        <item itemvalue="Application.UseNestedLoop" />
+        <item itemvalue="Application.UseAnagram" />
       </list>
     </recent_temporary>
   </component>
