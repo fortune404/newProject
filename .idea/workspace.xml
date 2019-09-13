@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89797ecc-b46c-49df-a4e1-3365724e8a0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tutoring_removeJunk/ReplaceString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tutoring_reverseInteger/TestReverseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tutoring_map/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tutoring_map/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tutoring_palindome/PalindromeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tutoring_palindome/UsePalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My_first_project/tutoring_reverseInteger/TestReverseInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My_first_project/tutoring_reverseInteger/TestReverseInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tutoring_reverseInteger/TestReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutoring_reverseInteger/TestReverseInteger.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,13 +67,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestReverseInteger">
-    <configuration name="DemoAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutoring_anagram.DemoAnagram" />
+  <component name="RunManager" selected="Application.PalindromeDemo">
+    <configuration name="Country" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutoring_map.Country" />
       <module name="My_first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tutoring_anagram.*" />
+          <option name="PATTERN" value="tutoring_map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +81,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutoring_removeJunk.ReplaceString" />
+    <configuration name="Movie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutoring_map.Movie" />
       <module name="My_first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tutoring_removeJunk.*" />
+          <option name="PATTERN" value="tutoring_map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutoring_palindome.PalindromeDemo" />
+      <module name="My_first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tutoring_palindome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,25 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseNestedLoop (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutoring_nestedloop.UseNestedLoop" />
+    <configuration name="UsePalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutoring_palindome.UsePalindrome" />
       <module name="My_first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tutoring_nestedloop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UseReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutoring_reverseString.UseReverseString" />
-      <module name="My_first_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tutoring_reverseString.*" />
+          <option name="PATTERN" value="tutoring_palindome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromeDemo" />
+        <item itemvalue="Application.UsePalindrome" />
+        <item itemvalue="Application.Movie" />
+        <item itemvalue="Application.Country" />
         <item itemvalue="Application.TestReverseInteger" />
-        <item itemvalue="Application.ReplaceString" />
-        <item itemvalue="Application.UseReverseString" />
-        <item itemvalue="Application.DemoAnagram" />
-        <item itemvalue="Application.UseNestedLoop (1)" />
       </list>
     </recent_temporary>
   </component>
