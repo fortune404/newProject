@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89797ecc-b46c-49df-a4e1-3365724e8a0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tutoring_largestWord/FindLargestWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tutoring_largestWord/LargestWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tutoring_largestWord/LargestUsingScanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,9 +62,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindLargestWord">
+  <component name="RunManager" selected="Application.LargestUsingScanner">
     <configuration name="FindLargestWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tutoring_largestWord.FindLargestWord" />
+      <module name="My_first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tutoring_largestWord.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargestUsingScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutoring_largestWord.LargestUsingScanner" />
       <module name="My_first_project" />
       <extension name="coverage">
         <pattern>
@@ -83,19 +95,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tutoring_largestWord.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Movie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutoring_map.Movie" />
-      <module name="My_first_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tutoring_map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargestUsingScanner" />
         <item itemvalue="Application.FindLargestWord" />
         <item itemvalue="Application.LargestWord" />
         <item itemvalue="Application.PalindromeDemo" />
         <item itemvalue="Application.UsePalindrome" />
-        <item itemvalue="Application.Movie" />
       </list>
     </recent_temporary>
   </component>
