@@ -44,6 +44,29 @@ public class UseReverseString
 
 
 
+        String str = "SDLC";
+        String ulta = "";
+        int lamba = str.length();
+
+        for (int i = length-1 ;i >= 0; i--)
+        {
+            ulta = ulta + str.charAt(i);
+        }
+        System.out.println(ulta);
+
+        StringBuffer stringBuffer1 = new StringBuffer(str);
+        System.out.println(stringBuffer1.reverse());
+
+
+
+
+
+
+
+
+
+
+
 
 
 

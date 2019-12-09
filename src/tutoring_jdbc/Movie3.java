@@ -22,7 +22,6 @@ public class Movie3
 
             String query = "INSERT INTO movie(id, title, releaseYear, genre, mpaaRating) " +
                     "VALUES(17, 'Halloween', 2018, 'Slasher/Thriller', 'R');";
-
             statement.execute(query);
 
         }catch (Exception e)

@@ -1,5 +1,6 @@
 package tutoring_LinkedList;
 
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -27,6 +28,27 @@ public class UseLinkedList
         }
 
 
+        List<String> locations = new LinkedList<String>();
+
+        locations.add("New York");
+        locations.add("Phoenix");
+        locations.add("Toronto");
+
+        locations.set(2,"St. Louis");
+
+        System.out.println(locations.get(2));
+        locations.remove(2);
+        for (int o = 0; o < locations.size(); o++)
+        {
+            System.out.println(locations.get(o));
+        }
+
+        Iterator ko = locations.iterator();
+
+        while (ko.hasNext())
+        {
+            System.out.println(ko.next());
+        }
 
 
 

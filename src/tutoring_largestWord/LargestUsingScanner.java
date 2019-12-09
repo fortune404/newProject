@@ -25,6 +25,35 @@ public class LargestUsingScanner
         System.out.println("The longest word is: "+longest);
         System.out.println("The shortest word is: "+shortest);
         System.out.println("---");
-
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

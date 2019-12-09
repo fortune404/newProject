@@ -1,5 +1,7 @@
 package tutoring_array;
 
+import java.util.List;
+
 public class UseArrays
 {
 
@@ -66,6 +68,32 @@ public class UseArrays
         System.out.println();
 
 
+        String[] drinks = new String[4];
+
+        drinks[0] = "Coke";
+        drinks[1] = "Sprite";
+        drinks[2] = "Fanta";
+        drinks[3] = "Ginger Ale";
+
+        for (String s: drinks)
+        {
+            System.out.println(s);
+        }
+
+        System.out.println(":::::::::");
+        String[] places = {"Thailand","London","Philippines","Australia"};
+
+        for (String s: places)
+        {
+            System.out.println(s);
+        }
+
+        int[] items = {23231,1231,64546};
+
+        for (int i: items)
+        {
+            System.out.println(i);
+        }
 
 
 
